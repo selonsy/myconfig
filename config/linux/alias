@@ -1,0 +1,28 @@
+# 说明：
+# 给 linux 系统常用命令取一个别名，方便使用。
+# 使用方法：
+# 修改用户主目录下面的 .bash_profile 文件，并使用 >source ./bash_profile 使之生效。
+# 语法：
+# alias ll="ls -aFl"
+# 注意：mac系统上需要新建 ~/.zshrc 文件(如果有则不用新建)，并在末尾加上 source ./bash_profile
+
+# cd 类
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias 1='cd -'
+alias 2='cd -2'
+
+# git 类
+alias ga='git add'
+alias gaa='git add --all'
+alias gcm='git commit -m'
+alias gs='git status'
+alias gl='git log'
+alias gpl='git pull'
+alias gph='git push'
+alias gc='git clone'
+
+# ls 类
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
