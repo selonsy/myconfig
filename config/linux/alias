@@ -6,6 +6,18 @@
 # alias ll="ls -aFl"
 # 注意：mac系统上需要新建 ~/.zshrc 文件(如果有则不用新建)，并在末尾加上 source ./bash_profile
 
+# temp 类
+# 主要放一些项目相关的命令，不需要即删除
+alias cdv='cd ~/workspace/vmatrix/'
+alias cdvi='cd ~/workspace/vmatrix/izone/'
+alias cdm='cd ~/workspace/MachineLearning/'
+alias cdc='cd ~/workspace/Cplusplus/'
+alias cdconfig='cd ~/workspace/myConfig/'
+alias cdvscode='cd ~/workspace/vscode/'
+
+# 配置类
+alias sbp='source ~/.bash_profile'
+
 # cd 类
 alias ...='cd ../..'
 alias ....='cd ../../..'
@@ -17,7 +29,7 @@ alias ga='git add'
 alias gaa='git add --all'
 alias gcm='git commit -m'
 alias gs='git status'
-alias gl='git log'
+alias gl='git log --graph --decorate --abbrev-commit --all'
 alias gpl='git pull'
 alias gph='git push'
 alias gc='git clone'
@@ -26,3 +38,10 @@ alias gc='git clone'
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+
+# django 类
+alias pmd1='python manage.py makemigrations'
+alias pmd2='python manage.py migrate'
+alias pmapp='python manage.py startapp'
+alias pmrun='python manage.py runserver'
+alias pmcs='python manage.py createsuperuser'
