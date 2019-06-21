@@ -15,6 +15,9 @@ alias cdc='cd ~/workspace/Cplusplus/'
 alias cdconfig='cd ~/workspace/myConfig/'
 alias cdvscode='cd ~/workspace/vscode/'
 
+# python类
+alias pipi='pip install -I https://pypi.tuna.tsinghua.edu.cn/simple/ '
+
 # 配置类
 alias sbp='source ~/.bash_profile'
 
