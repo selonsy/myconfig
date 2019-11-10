@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>#if_sjl</Title>
+			<Shortcut>#aaa</Shortcut>
+			<Description>#if 的代码片段</Description>
+			<Author>Microsoft Corporation</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+				<SnippetType>SurroundsWith</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>framework</ID>
+					<ToolTip>要计算的预处理器表达式</ToolTip>
+					<Default>NET452</Default>
+				</Literal>
+				<Literal>
+					<ID>netstandard</ID>
+					<ToolTip>要计算的预处理器表达式</ToolTip>
+					<Default>NETSTD14</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp"><![CDATA[#if $framework$
+		
+		#elif $netstandard$
+		$selected$ $end$ 
+	#endif]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

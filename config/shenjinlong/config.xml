@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <isdebug>true</isdebug>
+  <!--sqlserver-->
+  <databasetype>sqlserver</databasetype>
+  <connstr_debug>data source=.; initial catalog=shenjinlong; uid=sa; pwd=95938</connstr_debug>
+  <connstr_release>data source=qds16126820.my3w.com; initial catalog=qds16126820_db; uid=qds16126820; pwd=95270000</connstr_release>
+  
+  <!--mongodb-->
+  <connstr_mongo_debug>mongodb://127.0.0.1:27017</connstr_mongo_debug>
+  <connstr_mongo_debug_pwd></connstr_mongo_debug_pwd>  
+  <connstr_mongo_release></connstr_mongo_release>
+  <connstr_mongo_release_pwd></connstr_mongo_release_pwd>
+  
+  <site_path>local_win_iis</site_path>
+  <jversion>1000</jversion>
+  <logpath_default>c:/webconfig/logs/shenjinlong/</logpath_default>
+  <logpath_aliyun>log</logpath_aliyun>
+</config>

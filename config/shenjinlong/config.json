@@ -1,0 +1,19 @@
+{
+	"isdebug": true,	
+	"project_name":"netcoretest",
+	"jsversion":1000,
+	"logtype":"local",
+	"logpath_local":"c:/webconfig/logs/",
+    "logpath_remote":"logs", 
+	
+	"dbsqlserver_debug":"data source=.; initial catalog=shenjinlong; uid=sa; pwd=95938",
+	"dbsqlserver_release":"data source=qds16126820.my3w.com; initial catalog=qds16126820_db; uid=qds16126820; pwd=95270000",
+	
+	"dbmongo_debug_connstr":"mongodb://127.0.0.1:27017",
+	"dbmongo_release_connstr":"mongodb://127.0.0.1:27017",
+	
+	"dbredis_debug_connstr":"127.0.0.1:6379",
+	"dbredis_release_connstr":"127.0.0.1:6379",
+	"dbredis_debug_pwd":"95938",
+	"dbredis_release_pwd":"95938"
+}
