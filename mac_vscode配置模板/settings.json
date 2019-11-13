@@ -1,0 +1,8 @@
+{
+    "clang.cxxflags": [
+        "-std=c++17"
+    ],
+    "clang.cflags": [
+        "-std=c11"
+    ]
+}
